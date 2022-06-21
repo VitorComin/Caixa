@@ -1,0 +1,17 @@
+class Main {
+    public static void main(String[] args) {
+
+        Caixa<Integer> caixa1 = new Caixa<>();
+        
+        caixa1.guardar(4);
+        caixa2.guardar(4);
+        caixa1.retirar(4);
+
+        Caixa<String> caixa2 = new Caixa<>();
+        
+        caixa2.guardar("Brinquedo");
+        caixa2.guardar("Brinquedo");
+        caixa2.retirar("Brinquedo");
+
+    }
+}
