@@ -5,7 +5,7 @@ public class Caixa<T> {
     public void guardar(T object) {
         if (this.objeto == null ) {
             this.objeto = obj;
-            System.out.println("Objeto" + object + this.objeto.getClass().getTypeName() + "adicionado");
+            System.out.println("Objeto" + this.objeto.getClass().getTypeName() + "adicionado");
         } else {
             System.out.println("A caixa já tem objeto");
         }
@@ -14,7 +14,7 @@ public class Caixa<T> {
     public void retirar(T object) {
         if (this.objeto != null) {
             this.objeto = null;
-            System.out.println("Objeto" + object + object.getClass().getName() + "removido" );
+            System.out.println("Objeto" + object.getClass().getName() + "removido" );
         }
     }
 
